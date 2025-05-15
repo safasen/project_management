@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --color-light: rgb(75 85 99);
+  --color-dark: rgb(75, 85, 99);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(229, 231, 235);
+  font-family: "Roboto", sans-serif;
+}
+
+/* Font Classes */
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+.text-light {
+  color: var(--color-light);
+}
+
+.appear {
+  display: none;
+  transition: display 500ms ease-in;
+}
+
+.appearer:hover + .appear {
+  display: block;
+}
+
+/* Input Styling */
+
+input {
+  padding: 0.5rem 1rem;
+  border: 2px solid rgba(0, 0, 0, 0.040);
+  border-radius: 5px;
+  outline: none;
+  transition: border ease-in 100ms;
+}
+
+input:focus {
+  border: 2px solid black;
+}
+
+textarea {
+  padding: 0.5rem 1rem;
+  border: 2px solid rgba(0, 0, 0, 0.040);
+  border-radius: 5px;
+  outline: none;
+  transition: border ease-in 100ms;
+}
+
+textarea:focus {
+  border: 2px solid black;
+}
+
+select {
+  padding: 0.5rem 1rem;
+  border: 2px solid rgba(0, 0, 0, 0.040);
+  border-radius: 5px;
+  outline: none;
+  transition: border ease-in 100ms;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  overflow: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+/* Animations */
+
+@keyframes open{
+  from{
+    transform: translateX(100%);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+
+.opens{
+  animation: open 100ms ease-in;
+}
+.opacityDiv{
+  background: rgba(128,128,128,0.5);
+}
