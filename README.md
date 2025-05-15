@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projecto
+Projecto is a real-time project management application that can be used by a person or an organization to manage project effectively. 
 
-## Getting Started
+![Screenshot (128)](https://github.com/user-attachments/assets/5ccebf83-0213-4c36-9926-a1356d4b56b0)
 
-First, run the development server:
+### Home
+![Screenshot (127)](https://github.com/user-attachments/assets/1c2728fd-ddc9-4e71-90da-51cbf6c5ce78)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Tasks
+![Screenshot (23)](https://github.com/user-attachments/assets/d859910a-23b0-42b1-b182-3db383f92bb4)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Team Chat
+![Screenshot (24)](https://github.com/user-attachments/assets/580a3cbe-7c9c-4bf3-a207-f5f7c2d91a36)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Edit Task
+![Screenshot (28)](https://github.com/user-attachments/assets/acf4cc4b-2d14-4583-9c88-a38238760955)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Overview
+![Screenshot (25)](https://github.com/user-attachments/assets/54c48a1c-dede-4072-b652-b312ae179330)
 
-## Learn More
+### Create Task
+![Screenshot (22)](https://github.com/user-attachments/assets/e620d702-e222-4d6c-b025-82d784c9a07a)
 
-To learn more about Next.js, take a look at the following resources:
+### Create Project
+![Screenshot (20)](https://github.com/user-attachments/assets/b6a471db-d183-4b3c-9d3d-3949ce3d55da)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Bulit With
+- [Next.js](https://nextjs.org/)
+- [Firebase](https://firebase.google.com/)
